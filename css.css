@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+body {
+    text-align: center;
+    color:white;
+    background-color:black;
+    font-family: 'Silkscreen', sans-serif;
+}
+
+.p1 {
+font-size: 20px;
+}
+.img1 {
+    border-radius: 20px;
+    box-shadow: 8px 8px 6px 8px #ffffff70;
+    width:350px;
+    height:350px; 
+   
+}    
+
+
+.img1:hover {
+    width:400px; height:400px;
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+    cursor: default;
+}
+
+.div1 {
+    padding-bottom: 50px;
+}
